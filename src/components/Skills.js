@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faDatabase, faLaptopCode, faFire, faCloud, faLeaf } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase, faLaptopCode, faFire, faCloud, faLeaf } from '@fortawesome/free-solid-svg-icons';
 import { faHtml5, faCss3Alt, faJsSquare, faReact, faNodeJs, faJava, faPython, faCuttlefish } from '@fortawesome/free-brands-svg-icons';
 
 const Skills = () => {
