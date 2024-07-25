@@ -1,4 +1,5 @@
 import React from 'react';
+import projectPdf from '../utils/projectforprotf.pdf';
 
 const Projects = () => {
   return (
@@ -8,11 +9,34 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="bg-white dark:bg-gray-800 p-6 rounded shadow">
             <h3 className="text-xl font-semibold mb-2">Comprehensive Exam Management System (CEMS)</h3>
-            <p className="leading-relaxed">Java-based exam management system with MySQL database integration.</p>
+            <p className="leading-relaxed mb-2">
+              Java-based exam management system with MySQL database integration.
+            </p>
+            <p>
+              <a 
+                href={projectPdf} 
+                download 
+                className="text-blue-500 hover:underline"
+              >
+                Download the user book (PDF)
+              </a>
+            </p>
           </div>
           <div className="bg-white dark:bg-gray-800 p-6 rounded shadow">
             <h3 className="text-xl font-semibold mb-2">Recipe Sharing and Meal Planner Platform</h3>
-            <p className="leading-relaxed">Web-based recipe sharing platform using React.js, Tailwind, Node.js, Express, and Firebase.</p>
+            <p className="leading-relaxed mb-2">
+              Web-based recipe sharing platform using React.js, Tailwind, Node.js, Express, and Firebase.
+            </p>
+            <p>
+              <a 
+                href="https://recipe-platform-seven.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-500 hover:underline"
+              >
+                Visit and enjoy the platform
+              </a>
+            </p>
           </div>
         </div>
       </div>
