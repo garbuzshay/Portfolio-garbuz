@@ -15,6 +15,10 @@ const About = () => {
           <i className="fas fa-code mr-2"></i>
           Skilled in teamwork, coding, and data analysis.
         </p>
+        <p className="leading-relaxed flex items-center justify-center text-lg sm:text-xl lg:text-2xl mb-4">
+          <i className="fas fa-laptop mr-2"></i>
+          Specializes in building landing pages for small businesses, with a focus on accessibility and responsive design.
+        </p>
         <p className="leading-relaxed flex items-center justify-center text-lg sm:text-xl lg:text-2xl">
           <i className="fas fa-rocket mr-2"></i>
           Ready to take on new challenges and contribute to teams with technical expertise.

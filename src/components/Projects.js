@@ -7,6 +7,8 @@ const Projects = () => {
       <div className="container mx-auto text-center p-4">
         <h2 className="text-4xl font-bold mb-4">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          
+          {/* CEMS Project */}
           <div className="bg-white dark:bg-gray-800 p-6 rounded shadow">
             <h3 className="text-xl font-semibold mb-2">Comprehensive Exam Management System (CEMS)</h3>
             <p className="leading-relaxed mb-2">
@@ -22,6 +24,8 @@ const Projects = () => {
               </a>
             </p>
           </div>
+          
+          {/* Recipe Sharing Platform Project */}
           <div className="bg-white dark:bg-gray-800 p-6 rounded shadow">
             <h3 className="text-xl font-semibold mb-2">Recipe Sharing and Meal Planner Platform</h3>
             <p className="leading-relaxed mb-2">
@@ -38,6 +42,35 @@ const Projects = () => {
               </a>
             </p>
           </div>
+          
+          {/* New CMS/CRM Project */}
+          <div className="bg-white dark:bg-gray-800 p-6 rounded shadow">
+          <h3 className="text-xl font-semibold mb-2">CMS, CRM & Interactive Guide for Museum Management</h3>
+            <p className="leading-relaxed mb-2">
+              Full-stack system for museum management and user engagement, featuring a CRM, CMS, and visitor app.
+            </p>
+            <p>
+              <a 
+                href="https://final-project-jwpy.vercel.app/"  // Mock link for CRM & CMS system
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-500 hover:underline"
+              >
+                Visit the CRM & CMS System
+              </a>
+            </p>
+            <p>
+              <a 
+                href="https://mensch-visitors.vercel.app/"  // Mock link for Visitor App
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-500 hover:underline"
+              >
+                Explore the Visitor App
+              </a>
+            </p>
+          </div>
+
         </div>
       </div>
     </section>

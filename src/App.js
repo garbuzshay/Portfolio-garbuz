@@ -26,7 +26,7 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-      <div className={theme === 'light' ? 'bg-gray-100 text-gray-800' : 'bg-gray-900 text-red-100'}>
+      <div className={`scroll-smooth ${theme === 'light' ? 'bg-gray-100 text-gray-800' : 'bg-gray-900 text-red-100'}`}>
         <Navbar />
         <main>
           <Home />
