@@ -3,14 +3,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDatabase, faLaptopCode, faFire, faCloud, faLeaf } from '@fortawesome/free-solid-svg-icons';
 import { faHtml5, faCss3Alt, faJsSquare, faReact, faNodeJs, faJava, faPython, faCuttlefish } from '@fortawesome/free-brands-svg-icons';
 import cSharpIcon from '../utils/c-sharp-c.png';  // Importing C# PNG as a regular image
+import tsIcon from '../utils/pngwing.com.png';   // Importing TypeScript PNG
 
 const Skills = () => {
   const skills = [
-    { icon: faPython, name: 'Python' },
     { icon: faCuttlefish, name: 'C' },
     { icon: cSharpIcon, name: 'C#', isCustomIcon: true }, // Custom PNG for C#
+    { icon: faPython, name: 'Python' },
     { icon: faJava, name: 'Java' },
     { icon: faJsSquare, name: 'JavaScript' },
+    { icon: tsIcon, name: 'TypeScript', isCustomIcon: true }, // Adding TypeScript icon
     { icon: faHtml5, name: 'HTML' },
     { icon: faReact, name: 'React' },
     { icon: 'https://img.icons8.com/color/48/nextjs.png', name: 'Next.js', isCustomIcon: true }, // Using external Next.js image

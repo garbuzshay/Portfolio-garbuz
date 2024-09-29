@@ -19,6 +19,7 @@
 // export default Home;
 import React from 'react';
 import Shay from '../utils/Shay.jpg';
+import '../App.css'; // Import the global styles including the wave animation
 
 const Home = () => {
   return (
@@ -27,10 +28,10 @@ const Home = () => {
         {[...Array(4)].map((_, index) => (
           <div
             key={index}
-            className={`wave absolute bottom-0 left-0 w-[200%] h-full bg-white bg-opacity-5 
-                        rounded-[40%]`}
+            className="wave absolute bottom-0 left-0 w-[200%] h-full bg-white bg-opacity-5 rounded-[40%]"
             style={{
-              animation: `wave ${12 + index * 2}s infinite ease-in-out ${index % 2 === 0 ? 'normal' : 'reverse'}`,
+              animationDuration: `${12 + index * 2}s`,
+              animationDirection: index % 2 === 0 ? 'normal' : 'reverse',
               animationDelay: `${index * -5}s`,
             }}
           />
@@ -42,18 +43,10 @@ const Home = () => {
         </div>
         <h1 className="text-5xl font-bold mb-2">Hi, I'm Shay Garbuz</h1>
         <p className="text-2xl mb-4">System Information Engineering</p>
-        <a href="#contact" className="inline-block px-6 py-3 bg-white text-blue-600 dark:bg-gray-800 dark:text-gray-100 font-semibold rounded shadow hover:bg-gray-100 dark:hover:bg-gray-700">Contact</a>
+        <a href="#contact" className="inline-block px-6 py-3 bg-white text-blue-600 dark:bg-gray-800 dark:text-gray-100 font-semibold rounded shadow hover:bg-gray-100 dark:hover:bg-gray-700">
+          Contact
+        </a>
       </div>
-      <style jsx>{`
-        @keyframes wave {
-          0%, 100% {
-            transform: translateX(-50%) translateY(0) scaleY(1);
-          }
-          50% {
-            transform: translateX(0%) translateY(5%) scaleY(0.95);
-          }
-        }
-      `}</style>
     </div>
   );
 };

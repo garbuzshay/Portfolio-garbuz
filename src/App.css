@@ -1,4 +1,4 @@
-/* If you have custom styles to override Tailwind or to handle specific animations, keep them here */
+/* src/App.css */
 
 .App {
   text-align: center;
@@ -37,4 +37,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Wave animation */
+@keyframes wave {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(0%) translateY(5%) scaleY(0.95);
+  }
+}
+
+.wave-container .wave {
+  animation: wave 12s infinite ease-in-out;
 }
