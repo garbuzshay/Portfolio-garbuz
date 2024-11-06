@@ -10,7 +10,7 @@ const Projects = () => {
           
           {/* R-U-SAFE?! Project */}
           <div className="bg-white dark:bg-gray-800 p-6 rounded shadow">
-            <h3 className="text-xl font-semibold mb-2">R-U-SAFE?! Emergency Status Platform</h3>
+            <h3 className="text-xl font-semibold mb-2">R-U-Safe?! Emergency Status Platform</h3>
             <p className="leading-relaxed mb-2">
               Real-time emergency notification system using Next.js, MongoDB, and serverless functions to streamline safety updates during alerts.
             </p>
