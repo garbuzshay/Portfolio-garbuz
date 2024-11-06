@@ -8,6 +8,24 @@ const Projects = () => {
         <h2 className="text-4xl font-bold mb-4">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           
+          {/* R-U-SAFE?! Project */}
+          <div className="bg-white dark:bg-gray-800 p-6 rounded shadow">
+            <h3 className="text-xl font-semibold mb-2">R-U-SAFE?! Emergency Status Platform</h3>
+            <p className="leading-relaxed mb-2">
+              Real-time emergency notification system using Next.js, MongoDB, and serverless functions to streamline safety updates during alerts.
+            </p>
+            <p>
+              <a 
+                href="https://r-u-s.vercel.app/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-500 hover:underline"
+              >
+                Visit the platform
+              </a>
+            </p>
+          </div>
+
           {/* CEMS Project */}
           <div className="bg-white dark:bg-gray-800 p-6 rounded shadow">
             <h3 className="text-xl font-semibold mb-2">Comprehensive Exam Management System (CEMS)</h3>
@@ -43,15 +61,15 @@ const Projects = () => {
             </p>
           </div>
           
-          {/* New CMS/CRM Project */}
+          {/* Museum CMS/CRM Project */}
           <div className="bg-white dark:bg-gray-800 p-6 rounded shadow">
-          <h3 className="text-xl font-semibold mb-2">CMS, CRM & Interactive Guide for Museum Management</h3>
+            <h3 className="text-xl font-semibold mb-2">CMS, CRM & Interactive Guide for Museum Management</h3>
             <p className="leading-relaxed mb-2">
               Full-stack system for museum management and user engagement, featuring a CRM, CMS, and visitor app.
             </p>
             <p>
               <a 
-                href="https://final-project-jwpy.vercel.app/"  // Mock link for CRM & CMS system
+                href="https://final-project-jwpy.vercel.app/"
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-blue-500 hover:underline"
@@ -61,7 +79,7 @@ const Projects = () => {
             </p>
             <p>
               <a 
-                href="https://mensch-visitors.vercel.app/"  // Mock link for Visitor App
+                href="https://mensch-visitors.vercel.app/"
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-blue-500 hover:underline"

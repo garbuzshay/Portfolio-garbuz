@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="md:hidden flex items-center space-x-4">
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 focus:outline-none transition-all duration-300"
+            className="p-2 rounded-full   focus:outline-none transition-all duration-300"
           >
             <FontAwesomeIcon
               icon={theme === "light" ? faMoon : faSun}
@@ -45,11 +45,13 @@ const Navbar = () => {
               onClick={toggleMenu}
               className="text-gray-800 dark:text-gray-200 focus:outline-none w-10 h-10 flex items-center justify-center"
             >
-              <FontAwesomeIcon
-                icon={isOpen ? null : faBars}
-                className="text-gray-800 dark:text-gray-200"
-                size="lg"
-              />
+              {!isOpen && (
+                <FontAwesomeIcon
+                  icon={faBars}
+                  className="text-gray-800 dark:text-gray-200"
+                  size="lg"
+                />
+              )}
             </button>
           </div>
         </div>
