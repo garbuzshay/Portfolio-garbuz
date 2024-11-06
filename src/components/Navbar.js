@@ -70,7 +70,7 @@ const Navbar = () => {
           {/* Keep Dark/Light Mode Toggle in Desktop */}
           <button
             onClick={toggleTheme}
-            className="ml-4 p-2 rounded-full bg-gray-200 dark:bg-gray-700 focus:outline-none transition-all duration-300"
+            className="ml-4 p-2 rounded-full  focus:outline-none transition-all duration-300"
           >
             <FontAwesomeIcon
               icon={theme === "light" ? faMoon : faSun}

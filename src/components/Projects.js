@@ -26,6 +26,34 @@ const Projects = () => {
             </p>
           </div>
 
+{/* Museum CMS/CRM Project */}
+<div className="bg-white dark:bg-gray-800 p-6 rounded shadow">
+            <h3 className="text-xl font-semibold mb-2">CMS, CRM & Interactive Guide for Museum Management</h3>
+            <p className="leading-relaxed mb-2">
+              Full-stack system for museum management and user engagement, featuring a CRM, CMS, and visitor app.
+            </p>
+            <p>
+              <a 
+                href="https://final-project-jwpy.vercel.app/"
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-500 hover:underline"
+              >
+                Visit the CRM & CMS System
+              </a>
+            </p>
+            <p>
+              <a 
+                href="https://mensch-visitors.vercel.app/"
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-500 hover:underline"
+              >
+                Explore the Visitor App
+              </a>
+            </p>
+          </div>
+          
           {/* CEMS Project */}
           <div className="bg-white dark:bg-gray-800 p-6 rounded shadow">
             <h3 className="text-xl font-semibold mb-2">Comprehensive Exam Management System (CEMS)</h3>
@@ -61,33 +89,7 @@ const Projects = () => {
             </p>
           </div>
           
-          {/* Museum CMS/CRM Project */}
-          <div className="bg-white dark:bg-gray-800 p-6 rounded shadow">
-            <h3 className="text-xl font-semibold mb-2">CMS, CRM & Interactive Guide for Museum Management</h3>
-            <p className="leading-relaxed mb-2">
-              Full-stack system for museum management and user engagement, featuring a CRM, CMS, and visitor app.
-            </p>
-            <p>
-              <a 
-                href="https://final-project-jwpy.vercel.app/"
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="text-blue-500 hover:underline"
-              >
-                Visit the CRM & CMS System
-              </a>
-            </p>
-            <p>
-              <a 
-                href="https://mensch-visitors.vercel.app/"
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="text-blue-500 hover:underline"
-              >
-                Explore the Visitor App
-              </a>
-            </p>
-          </div>
+          
 
         </div>
       </div>
